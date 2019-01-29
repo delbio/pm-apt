@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# Summary:
+#    Update all outdated packages
+#
+# Usage: pm-apt update
+#
+
+echo "** Apt **"
+sudo apt-get update -y && \
+sudo apt-get upgrade -y
